@@ -1,28 +1,68 @@
 @charset "utf-8";
 /* CSS Document */
 
+/*Fuentes*/
 @font-face {
     font-family: Barlow;
     src: url(fonts/Barlow-Regular.ttf) format('truetype');
-    font-weight: normal;
-    font-style: normal;
 }
 
 @font-face {
     font-family: Barlow Bold;
     src: url(fonts/Barlow-Bold.ttf) format('truetype');
-    font-weight: normal;
 }
+
+@font-face {
+    font-family: Barlow Medium;
+    src: url(fonts/Barlow-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Barlow Extrabold;
+    src: url(fonts/Barlow-ExtraBold.ttf) format('truetype');
+}
+
+/*Fin fuentes*/
 
 *{
     margin: 0px;
 }
 
-img{
-    margin: 10px;
-    margin-right: 400px;
+/*Títulos, subtítulos, etc*/
+p {
+    font-family: Barlow;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
 }
 
+h1{
+    color:white;
+    font-family: Barlow Extrabold;
+    font-size: 88px;
+    line-height: normal;
+}
+
+h2{
+    font-family: Barlow Bold;
+    color: #580002;
+    font-size: 56px;
+    line-height: 68px;
+}
+
+h3{
+    font-family: Barlow Bold;
+    color: #580002;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+/*Ajustes para la botonera!!!*/
+
+#logocca {
+    margin: 10px;
+}
 #cabecera {
     height: 90px;
     display: flex;
@@ -30,6 +70,7 @@ img{
     background-color: #580002;
     margin: 0px;
 }
+
 .botones {
     display: flex;
     align-items: center;
@@ -51,6 +92,7 @@ li{
     justify-content: space-between;
     margin: 15px;
 }
+
 li:hover{
     font-family: 'Barlow Bold';
     font-size: 20px;
@@ -58,3 +100,29 @@ li:hover{
     text-decoration: underline;
     color: #C5AFA0;
 }
+/*Fin de ajustes para la botonera!!!*/
+
+/*Imagen principal index*/
+.imagenppal {
+    position: relative;
+    display: inline-block;
+}
+
+
+.imagenppal img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.textosuperpuesto {
+      position: absolute;
+     top: 90%; 
+     left: 35%; 
+     transform: translate(-50%, -50%); 
+     color: #fff; 
+     padding: 10px 20px; 
+     font-size: 20px; 
+     text-align: left;
+}
+/*fin imagen principal*/
