@@ -58,11 +58,24 @@ h3{
     line-height: 36px;
 }
 
+h4{
+    color: #FFF;
+    font-family: Barlow;
+    font-size: 20px;
+}
+
+h5{
+color: #FFF;
+font-family: Barlow Bold;
+font-size: 32px;
+}
+
 /*Ajustes para la botonera!!!*/
 
 #logocca {
     margin: 10px;
 }
+
 #cabecera {
     height: 90px;
     display: flex;
@@ -116,7 +129,7 @@ li:hover{
 }
 
 .textosuperpuesto {
-      position: absolute;
+     position: absolute;
      top: 90%; 
      left: 35%; 
      transform: translate(-50%, -50%); 
@@ -126,3 +139,18 @@ li:hover{
      text-align: left;
 }
 /*fin imagen principal*/
+
+/*ajustes footer*/
+footer{
+    background-color: #150F10;
+    height: 292px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+ul{
+    display: flex;
+}
+/*fin ajustes footer*/
