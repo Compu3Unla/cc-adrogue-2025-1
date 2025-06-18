@@ -73,6 +73,11 @@ font-family: Barlow Bold;
 font-size: 32px;
 }
 
+body{
+  cursor: url(img/cursor.svg) 0 0, auto;
+}
+
+
 /*Ajustes para la botonera!!!*/
 
 .logocca {
