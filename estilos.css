@@ -143,14 +143,19 @@ li:hover{
 /*ajustes footer*/
 footer{
     background-color: #150F10;
-    height: 292px;
+    height: 220px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px;
+    padding: 35px 120px;
 }
 
 ul{
     display: flex;
+    justify-content: end;
+}
+
+.horarios {
+    text-align: right;
 }
 /*fin ajustes footer*/
