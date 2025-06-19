@@ -30,12 +30,15 @@
 
 *{
     margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
 }
 
 /*Títulos, subtítulos, etc*/
 p {
     font-family: Barlow;
-    font-size: 24px;
+    font-size: 1.1em;
     font-style: normal;
     font-weight: 500;
     line-height: 25px;
@@ -53,7 +56,6 @@ h2{
     color: #580002;
     font-size: 56px;
     line-height: 68px;
-    text-transform: uppercase;
 }
 
 h3{
@@ -73,27 +75,30 @@ h5{
 color: #FFF;
 font-family: Barlow Bold;
 font-size: 32px;
-text-transform: uppercase;
 }
 
-h6{
-    color: white;
-    font-family:'Barlow LightItalic';
-    font-size: 48px;
+body{
+  cursor: url(img/cursor.svg) 0 0, auto;
 }
+
 
 /*Ajustes para la botonera!!!*/
 
-#logocca {
-    margin: 10px;
+.logocca {
+    height: 8vh;
+    width: auto;
 }
 
 #cabecera {
-    height: 90px;
+    height: 10vh;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: #580002;
-    margin: 0px;
+    width: 100%;
+    position: sticky;
+    top: 0%;
+    z-index: 10;
 }
 
 .botones {
@@ -109,21 +114,29 @@ h6{
 }
 
 
-li{
+li a{
     font-family: 'Barlow';
-    text-transform: uppercase;
-    font-size: 20px;
-    color:white;
+    color: #FFF;
     display: flex;
     justify-content: space-between;
-    margin: 15px;
+    padding: 5px 15px;
 }
 
-li:hover{
+header li a{
+    font-size: 1.2em;
+}
+
+header li:hover{
     font-family: 'Barlow Bold';
-    font-size: 20px;
     font-style: bold;
-    text-decoration: underline;
+    color: #C5AFA0;
+    padding: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: #C5AFA0;
+    border-bottom-left-radius: 1px;
+}
+
+ header li a:hover{
     color: #C5AFA0;
 }
 /*Fin de ajustes para la botonera!!!*/
@@ -156,28 +169,303 @@ li:hover{
 /*ajustes footer*/
 footer{
     background-color: #150F10;
-    height: 220px;
+    height: 292px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 35px 120px;
+    padding: 25px;
 }
 
 ul{
     display: flex;
-    justify-content: end;
-}
-
-.horarios {
-    text-align: right;
 }
 /*fin ajustes footer*/
 
-/*index section cartelera*/
+
+/*ajustes cards*/
+summary{
+    width: 50%;
+    border-radius: 20px;
+    background-color: #580002;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 65px;
+    box-sizing: border-box;
+    gap: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*continuación index*/
+.indexdestacado{
+    display: flex;
+    padding: 65px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
 .titulos{
     display: flex;
-    padding: 15px 241px;
     align-items: center;
+    text-transform: uppercase;
+    padding: 15px 241px;
     gap: 40px;
+}
+
+h6{
+    color: white;
+    font-family: 'Barlow LightItalic';
+    font-size: 48px;
+}
+
+/*obras index*/
+.botonvm {
+    color: white;
+    width: 95px;
+    text-transform: uppercase;
+    background-color: #580002;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.obrascart{
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 8px 8px 8px 0px rgba(197, 175, 160, 0.30);
+    display: flex;
+    padding: 35px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 618px;
+    height: 691px;
+}
+
+.carteleraindex{
+    display: flex;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
     align-self: stretch;
+}
+
+.mayus{
+    text-transform: uppercase;
+}
+
+
+/*talleres index*/
+.talleresind{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.carttalleres{
+    background-color: #580002;
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px 0px rgba(197, 175, 160, 0.30);
+    width: 406px;
+    height: 588px;
+    display: flex;
+    padding: 35px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.talleresindex{
+    display: inline-flex;
+    padding: 30px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.botonvm2 {
+    color: white;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: #580002;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.vmi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 85px;
 }
