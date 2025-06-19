@@ -34,7 +34,7 @@
 /*Títulos, subtítulos, etc*/
 p {
     font-family: Barlow;
-    font-size: 24px;
+    font-size: 1.1em;
     font-style: normal;
     font-weight: 500;
     line-height: 25px;
@@ -179,10 +179,26 @@ ul{
 
 
 /*ajustes cards*/
-summary{
+
+details{
     width: 50%;
-    border-radius: 20px;
+}
+
+details[open]{
+    background-color: #F3EFEC;
+    border-radius: 25px;
+    gap: 20px;
+}
+
+.card-talleres-abierta, .titulo-card{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+summary{
+    width: 100%;
     background-color: #580002;
+    border-radius: 25px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -191,3 +207,81 @@ summary{
     box-sizing: border-box;
     gap: 35px;
 }
+
+summary h3{
+    color: #FFF;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.card-talleres-abierta{
+    padding: 25px;
+    box-sizing: border-box;
+    gap: 30px;
+}
+
+.titulo-card{
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.contenido-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.foto-taller{
+    width: 55%;
+    height: auto;
+    border-radius: 15px;
+}
+
+details p{
+    font-size: 0.8em;
+}
+
+details h4{
+    font-size: 0.9em;
+    color: #580002;
+    text-transform: uppercase;
+}
+
+details a{
+    background-color:#580002;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-family: "Barlow";
+    font-size: 0.8em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+details a:hover{
+    background-color: #C5AFA0;
+    color: #580002;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 5% 0%;
+}
+
+.intro-talleres{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    padding: 5% 25% 0% 25%;
+}
+
+
+
