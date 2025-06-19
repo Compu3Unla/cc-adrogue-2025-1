@@ -436,37 +436,7 @@ iframe{
 .dire-n{
     font-weight: bolder;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*fin ajustes contacto*/
 
 
 
@@ -703,3 +673,111 @@ h6{
   100% {
     transform: translateX(0%);}
 }
+
+/*fin nosotros*/
+
+/*cartelera*/
+
+.cartelera {
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+}
+
+.intro-cartelera {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    padding: 5% 5% 0% 25%;
+}
+
+.video {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 0% 25% 0% 0%;
+    align-items: flex-end;
+}
+
+.trama {
+    display: flex;
+    padding-top: 5%;
+    width: 100%;
+}
+
+.titulo-cartelera {
+    display: flex;
+     padding-bottom: 25px;
+}
+.obras {
+    display: flex;
+    padding-top: 5%;
+    flex-direction: column;
+    padding-left: 25%;
+    padding-bottom: 5%;
+    gap: 10px;
+   
+}
+
+.nombres-obras {
+     color: #580002;
+    font-family: Barlow;
+    font-size: 20px;
+   
+
+}
+
+.SOLICANTILOQUIOS {
+    display: flex;
+     align-items: center;
+    gap:10px;
+    background: rgba(109, 109, 109, 0.15);
+    width: 780px;
+    height: 300px;
+    border-radius: 20px;
+    justify-content:center;
+    flex-wrap: nowrap;
+    align-content: space-between;
+
+    
+
+}
+
+.fechas {
+      color: #150F10;
+    font-family: Barlow;
+    font-size: 15px;
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+
+}
+
+.exp-obras {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.reserva {
+        background-color: #580002;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-family: "Barlow";
+    font-size: 0.8em;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 50px; ;
+}
+
+.calendarios {
+    display: flex;
+}
+
+/* aca termina cartelera */
