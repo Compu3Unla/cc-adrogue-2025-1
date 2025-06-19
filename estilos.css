@@ -167,16 +167,39 @@ header li:hover{
 /*ajustes footer*/
 footer{
     background-color: #150F10;
-    height: 292px;
+    height: 16vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px;
+    padding: 35px 55px;
 }
 
-ul{
+footer ul{
     display: flex;
+    justify-content: flex-start;
+    padding: 0px;
+    gap: 5px;
 }
+
+img.logo-footer{
+    height: 12vh;
+    width: auto;
+}
+
+footer h4{
+    font-size: 0.8em;
+    padding-top: 5px;
+}
+
+footer h5{
+    font-size: 1.2em;
+}
+
+img.icono-footer{
+    height: 3vh;
+    width: auto;
+}
+
 /*fin ajustes footer*/
 
 
@@ -565,4 +588,118 @@ h6{
     padding: 85px;
 }
 
+/* ---- nosotros de alex - primera parte ---- */
 
+.nosotros {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.nosotros-texto {
+    width: 50%;
+    padding: 200px 200px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.nosotros-texto h3 {
+    margin-bottom: 20px;
+}
+
+.nosotros-texto p {
+    font-family: Barlow;
+    font-size: 1.1em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    color: #000;
+}
+
+.nosotros-imagen {
+    width: 50%;
+    overflow: hidden;
+}
+
+.nosotros-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+/* seccion elenco */
+.elenco {
+    background-color: white;
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.elenco h3 {
+    line-height: 68px;
+    margin-bottom: 2rem;
+}
+
+/* Slider general */
+.slider {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Carril que contiene grupos de actores */
+.slider-track {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* Grupo duplicado para animación infinita */
+.grupo {
+    display: flex;
+    gap: 1rem;
+    animation: scroll-left 100s linear infinite;
+}
+
+.reverse .grupo {
+    animation: scroll-right 100s linear infinite;
+}
+
+/* Estilos individuales de cada actor */
+.actor {
+    background: #b3002d;
+    border-radius: 57px;
+    padding: 0.7rem 1rem;
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Barlow Medium';
+    font-size: 1rem;
+    font-weight: 600;
+    justify-content: center;
+    color: #f2f2f2;
+}
+
+/* Animaciones del slider con los nombres */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);}
+}
