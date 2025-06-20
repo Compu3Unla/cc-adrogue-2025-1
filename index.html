@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Centro Cultural Adrogue</title>
     <link href="estilos.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/svg+xml" sizes="32x32" href="img/favicon.svg">
@@ -40,27 +41,39 @@
             </div>
         </section>
         <section>
-            <div class="titulos">
-                <img src="img/web/index/icon-calendario.png" width="58px" height="74" alt="icono calendario">
-                <h2>cartelera</h2>
-            </div>
-            <div class="carteleraindex">
-                <img src="img/web/index/flecha-izq.svg" width="70px" height="43px" alt="flecha izquierda">
+    <div class="titulos">
+        <img src="img/web/index/icon-calendario.png" width="58px" height="74" alt="icono calendario">
+        <h2>cartelera</h2>
+    </div>
+    <div class="carteleraindex">
+        <img class="flecha" src="img/web/index/flecha-izq.svg" width="70px" height="43px" alt="flecha izquierda">
+
+        <div class="carrusel">
+            <div class="carrusel-track">
                 <article class="obrascart">
                     <img src="img/web/cartelera/obra2_solicantiloquios.jpg" width="630px" height="415px" alt="obra solicantiloquios">
                     <h3 class="mayus">solicantiloquios</h3>
-                    <p>El vacio existencial, la depresión de los<br>domingos por la tarde y la busqueda del sentido<br>de la vida, son algunos de las temáticas<br>abordadas por esta propuesta de teatro musical.</p>
+                    <p>El vacío existencial, la depresión de los domingos por la tarde y la búsqueda del sentido de la vida...</p>
                     <a href="cartelera.html"><p class="botonvm">ver más</p></a>
                 </article>
                 <article class="obrascart">
                     <img src="img/web/cartelera/obra1_situacionesallimite.jpg" width="630px" height="415px" alt="obra situaciones al limite">
-                    <h3 class="mayus">situaciones al limite</h3>
-                    <p>Situaciones que son inevitables, fuertes,<br>definitivas, en fin situaciones al límite que<br>seguramente, con mas o menos cercanía todos<br>hemos vivido.</p>
+                    <h3 class="mayus">situaciones al límite</h3>
+                    <p>Situaciones inevitables, fuertes, definitivas, que seguramente todos hemos vivido.</p>
                     <a href="cartelera.html"><p class="botonvm">ver más</p></a>
                 </article>
-                <img src="img/web/index/flecha-der.svg" width="70px" height="43px" alt="flecha derecha">
+                <article class="obrascart">
+                    <img src="img/web/cartelera/obra3_urdapilleta.jpg" width="630px" height="415px" alt="obra urdapilleta">
+                    <h3 class="mayus">recordando a urdapilleta</h3>
+                    <p>Textos delirantes, surrealistas, plagados de una imaginación infinita, caracterizan la producción de un genio contemporáneo como fue Urdapilleta.</p>
+                    <a href="cartelera.html"><p class="botonvm">ver más</p></a>
+                </article>
             </div>
-        </section>
+        </div>
+
+        <img class="flecha" src="img/web/index/flecha-der.svg"  width="70px" height="43px" alt="flecha derecha">
+    </div>
+</section>
         <section class="indexdestacado">
             <img src="img/web/index/flecha-arr.svg" width="150px" height="50px" alt="icono arriba">
             <h3>El Centro Cultural Bárbara Mujica es un espacio de</h3>
@@ -74,21 +87,31 @@
                 <img src="img/web/index/icon-talleres.png" width="50px" height="57px" alt="icono talleres">
                 <h2>talleres</h2>
             </div>
-            <div class="talleresindex">
-                <img src="img/web/index/flecha-izq.svg" width="70px" height="43px" alt="flecha izquierda">
-                <article class="carttalleres">
-                    <img src="img/web/index/index-talleres3.png" width="369px" height="366px" alt="teatro para adolescentes">
+            <div class="gridtalleres">
+                <a href="talleres.html" class="carttalleres">
+                    <img src="img/web/index/index-talleres1.png" width="369px" height="366px" alt="teatro para adultos mayores">
                     <h3 class="talleresind">teatro para adolescentes</h3>
-                </article>
-                 <article class="carttalleres">
+                </a>
+                 <a href="talleres.html" class="carttalleres">
                     <img src="img/web/index/index-talleres2.png" width="369px" height="366px" alt="teatro para adultos">
                     <h3 class="talleresind">teatro para adultos inicial</h3>
-                </article>
-                <article class="carttalleres">
-                    <img src="img/web/index/index-talleres1.png" width="369px" height="366px" alt="teatro para adultos mayores">
+                </a>
+                <a href="talleres.html"  class="carttalleres">
+                    <img src="img/web/index/index-talleres3.png" width="369px" height="366px" alt="teatro para adolescentes">
                     <h3 class="talleresind">teatro para adultos mayores</h3>
-                </article>
-                <img src="img/web/index/flecha-der.svg" width="70px" height="43px" alt="flecha derecha">
+                </a>
+                <a href="talleres.html" class="carttalleres">
+                    <img src="img/web/index/index-talleres4.png" width="369px" height="366px" alt="teatro para adolescentes">
+                    <h3 class="talleresind">historieta e ilustración inicial</h3>
+                </a>
+                 <a href="talleres.html" class="carttalleres">
+                    <img src="img/web/index/index-talleres5.png" width="369px" height="366px" alt="teatro para adultos">
+                    <h3 class="talleresind">modelado en porcelana fría</h3>
+                </a>
+                <a href="talleres.html" class="carttalleres">
+                    <img src="img/web/index/index-talleres6.png" width="369px" height="366px" alt="teatro para adultos mayores">
+                    <h3 class="talleresind">canto para niños intermedio</h3>
+                </a>
             </div>
             <div class="vmi">
                 <a href="talleres.html"><p class="botonvm">ver más información</p></a>
@@ -115,4 +138,33 @@
                 </ul>
             </div>
     </footer>
+ <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const track = document.querySelector(".carrusel-track");
+    const slides = Array.from(document.querySelectorAll(".obrascart"));
+    const prevButton = document.querySelector("img[src*='flecha-izq']");
+    const nextButton = document.querySelector("img[src*='flecha-der']");
+
+    let currentIndex = 0;
+
+    function updateCarrusel() {
+      const slideWidth = slides[0].offsetWidth + 20; // imagen + margen
+      track.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+    }
+
+    prevButton.addEventListener("click", () => {
+      if (currentIndex > 0) {
+        currentIndex--;
+        updateCarrusel();
+      }
+    });
+
+    nextButton.addEventListener("click", () => {
+      if (currentIndex < slides.length - 1) {
+        currentIndex++;
+        updateCarrusel();
+      }
+    });
+  });
+</script>
 </body>
