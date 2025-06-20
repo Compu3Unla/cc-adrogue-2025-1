@@ -5,7 +5,7 @@ Integrantes:
 ### Garcia Rocio
 ### Villalba Mara
 ## Sobre el tp
-Para este trabajo práctico tuvimos dos instancias, en la primera analizamos la página real del Centro cultural y posteriormente hicimos un re-diseño modificando los elementos o secciones qeu consideramos que no funcionan del todo bien. Una vez realizado el prototipo en wireframe alta en figma empezamos con el código html y css, algunos de los elementos propuestos debieron ser modificados en la versión final para adaptarse a los códigos.
+Para este trabajo práctico tuvimos dos instancias, en la primera analizamos la página real del Centro cultural y posteriormente hicimos un re-diseño modificando los elementos o secciones que consideramos que no funcionaban del todo bien. Una vez realizado el prototipo en wireframe alta en figma empezamos con el código html y css, algunos de los elementos propuestos debieron ser modificados en la versión final para adaptarse a los códigos.
 
 ## Resolución de pantalla
 Trabajamos en distintos tamaños de pantalla.
