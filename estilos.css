@@ -22,6 +22,10 @@
     src: url(fonts/Barlow-ExtraBold.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: Barlow LightItalic;
+    src: url(fonts/Barlow-LightItalic.ttf) format('truetype');
+}
 /*Fin fuentes*/
 
 *{
@@ -58,7 +62,7 @@ h3{
     font-family: Barlow Bold;
     color: #580002;
     font-size: 32px;
-    line-height: 36px;
+    line-height: 2px;
 }
 
 h4{
@@ -71,6 +75,12 @@ h5{
 color: #FFF;
 font-family: Barlow Bold;
 font-size: 32px;
+}
+
+h6{
+    color: white;
+    font-family: 'Barlow LightItalic';
+    font-size: 48px;
 }
 
 body{
@@ -458,16 +468,11 @@ iframe{
     gap: 40px;
 }
 
-h6{
-    color: white;
-    font-family: 'Barlow LightItalic';
-    font-size: 48px;
-}
 
 /*obras index*/
 .botonvm {
     color: white;
-    width: 95px;
+    width: fit-content;
     text-transform: uppercase;
     background-color: #580002;
     border-radius: 10px;
@@ -516,6 +521,7 @@ h6{
     color: white;
     text-transform: uppercase;
     text-align: center;
+    line-height: 1.2;
 }
 
 .carttalleres{
@@ -544,26 +550,6 @@ h6{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.botonvm2 {
-    color: white;
-    width: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    background-color: #580002;
-    border-radius: 10px;
-    padding: 10px;
-    gap: 10px;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-.botonvm2:active{
-    background-color: #C5AFA0;
-    color: #580002;
 }
 
 .vmi{
