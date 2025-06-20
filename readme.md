@@ -15,7 +15,7 @@ Trabajamos en distintos tamaños de pantalla.
 ### Villalba Mara - 1600x900
 
 ## Editor de código
-Todos utilizamos Visual Code para editar el código.
+Todos utilizamos Visual Code.
 
 ## Figma
 
