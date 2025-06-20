@@ -489,8 +489,8 @@ h6{
     justify-content: center;
     align-items: center;
     gap: 30px;
-    width: 618px;
-    height: 691px;
+    width: 50%;
+    height: auto;
 }
 
 .carteleraindex{
@@ -518,8 +518,8 @@ h6{
     background-color: #580002;
     border-radius: 20px;
     box-shadow: 8px 8px 8px 0px rgba(197, 175, 160, 0.30);
-    width: 406px;
-    height: 588px;
+    width: 33.3%;
+    height: auto;
     display: flex;
     padding: 35px;
     flex-direction: column;
